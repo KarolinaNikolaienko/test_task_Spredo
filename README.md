@@ -11,23 +11,41 @@ and returns projects filtered by specific criteria.
 
 - Python 3.10+
 
-## Installation
+## 1. Create virtual environment
+
+### macOS / Linux
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+## 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run
+## 3. Run backend server
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-Server starts at:
+Backend will run on:
 
 ```text
 http://127.0.0.1:8000
 ```
+
+---
 
 ## Endpoint
 
